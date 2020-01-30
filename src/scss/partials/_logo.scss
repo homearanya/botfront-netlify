@@ -1,0 +1,13 @@
+.botfront-logo {
+    font-family: Hind, sans-serif;
+    color: rgba(0,0,0,0.85);
+    font-size: 38px;
+    font-weight: 700;
+    &.is-inverted {
+        color: white
+    }
+    &.for-footer {
+        font-size: 36px;
+        margin-top: -10px
+    }
+}

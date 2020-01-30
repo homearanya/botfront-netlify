@@ -1,0 +1,64 @@
+/* ==========================================================================
+Fresh Footer
+========================================================================== */
+footer.cta-footer {
+    background: #c0d6f9;
+    .title {
+        font-family: 'Raleway';
+        font-weight: 800;
+        color: $text;
+    }
+
+    .subtitle {
+        color: $text;
+    }
+    .read-the-docs {
+        color: $dark-grey;
+        margin-top: -1.2rem;
+        font-size: 0.9rem;
+        a {
+            text-decoration: underline;
+        }
+    }
+}
+footer.footer-dark {
+    background: $blue-grey;
+    color: $white;
+    .columns {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .footer-logo {
+        img {
+            height: 40px;
+        }
+    }
+    .footer-column {
+        .footer-header h3 {
+            font-weight:500;
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 20px;
+        }
+        ul.link-list {
+            line-height: 40px;
+            font-size: 0.95rem;
+            a {
+                color: $light-blue-grey;
+                font-weight: 400;
+                transition: all 0.5s;
+            }
+            :hover {
+                color: $smoke-white;
+            }
+        }
+        .level-item .icon {
+            color: $secondary;
+            transition: all 0.5s;
+            :hover {
+                color: $smoke-white;
+            }
+        }
+    }
+}

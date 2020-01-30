@@ -1,0 +1,24 @@
+
+
+    .rasa-integration-illustration {
+        padding-right: 2rem;
+    }
+
+    .npm-cta {
+
+        margin: 1.45rem;
+        padding: 1.6rem 1.2rem 1.6rem 1.2rem !important;
+        font-size: 1.2rem !important;
+        background: #000000 !important;
+        font-family: 'Roboto Mono' !important;
+        font-weight: 500 !important;
+        border-width: 2px;
+        background: $text;
+        border: none;
+        border-radius: 6px;
+        color: white;
+        &:hover {
+            color: #2fde10 !important;
+        }
+    }
+/* hide gradient on video */

@@ -1,0 +1,10 @@
+[build]
+  publish = "public"
+  command = "./build.sh"
+[build.environment]
+  YARN_VERSION = "1.7.0"
+[[redirects]]
+  from = "/docs"
+  to = "/docs/getting-started/setup"
+  status = 200
+  force = true

@@ -1,0 +1,25 @@
+.contact-section {
+    min-height: 85vh ;
+    h2 {
+            font-family: "Source Sans Pro";
+            font-weight: 600;
+            font-size: 1.3rem;
+            margin-bottom: 1rem;
+    }
+    ul {
+        margin-left: 26px;
+        list-style-image: url('/images/illustrations/icons/check.svg');
+        
+      }
+      
+      li, a, p {
+        font-family: "Source Sans Pro";
+        font-weight: 400;
+        font-size: 1.2rem;
+        margin-top: 1rem;
+    }
+    .input, .select, .textarea {
+        margin-bottom: 0.5rem;
+    }
+}
+

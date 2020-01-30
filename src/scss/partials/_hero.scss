@@ -1,0 +1,75 @@
+/* ==========================================================================
+Hero styles
+========================================================================== */
+
+.hero {
+    .clients-logo {
+        margin-bottom: 2rem;
+    }
+
+    .prompt {
+        color:#04a004
+    }
+
+    video::-webkit-media-controls-panel {
+        background-image: none !important;
+    }
+
+    video {
+        padding: 0;
+        border-color: transparent;
+        border-width: 0px;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        -webkit-box-shadow: 10px 16px 41px -1px rgba(0,0,0,0.46);
+        -moz-box-shadow: 10px 16px 41px -1px rgba(0,0,0,0.46);
+        box-shadow: 10px 16px 41px -1px rgba(0,0,0,0.46);
+    }
+}
+
+.hero-body {
+    text-align: center;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    .title, .subtitle {
+        text-align: center;
+    }
+    .image {
+        max-width: 75%;
+        margin-top: 2rem;
+    }
+    .title {
+        font-size: 3.3rem;
+        font-family: 'Raleway';
+        color: $text;
+        &.is-bold {
+            font-weight: 800;
+        }
+    }
+    .subtitle {
+        font-size: 1.7rem;
+        font-family: 'Source Sans Pro', sans-serif;
+        &.is-muted {
+            color: $muted-grey;
+        }
+        .is-bold {
+            color: #3273dc;
+            font-weight: 900;
+        }
+    }
+}
+
+.hero-foot {
+    img.partner-logo {
+
+        width: auto;
+        height: auto;
+        max-height: 50px;
+        filter: grayscale(100%);
+        opacity: 0.3;
+
+        &.valtech {
+            max-height: 40px;
+        }
+    }
+}

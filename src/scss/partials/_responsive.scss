@@ -1,0 +1,212 @@
+/* ==========================================================================
+Responsive Styles
+========================================================================== */
+
+@media (max-width: 767px) {
+    .landing-caption {
+        text-align: center;
+    }
+
+    .hero {
+        .clients-logo {
+            margin-bottom: 2rem;
+        }
+
+        .prompt {
+            color:#04a004
+        }
+        .cta {
+
+            margin: 0.5rem;
+            padding: 0.8rem 0rem 0.8rem 0.6rem !important;
+            font-size: 1rem !important;
+            background: #000000 !important;
+            font-family: 'Roboto Mono' !important;
+            font-weight: 400 !important;
+            border: 1 ;
+            border-width: 2px;
+            background: $text;
+            border-color: white;
+            border-radius: 6px;
+            color: white;
+        }
+    }
+
+    .hero-body {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+        .title, .subtitle {
+            text-align: center;
+        }
+        .image {
+            max-width: 100%;
+            margin-top:1rem;
+            object-fit: cover;
+        }
+        .title {
+            font-size: 2.1rem;
+            font-family: 'Raleway';
+            color: $text;
+            &.is-bold {
+                font-weight: 800;
+            }
+        }
+        .subtitle {
+            font-size: 1.3rem;
+        }
+    }
+
+    .navbar-menu {
+        .is-static {
+            position: absolute;
+            width: 100%;
+        }
+
+        .is-fixed {
+            position: fixed;
+            width: 100%;
+        }
+
+        .navbar-item {
+            text-align: center !important;
+
+            .signup-button {
+                width: 100% !important;
+            }
+        }
+
+        .navbar-link {
+            padding: 10px 20px !important;
+        }
+    }
+
+    .title.section-title {
+        font-size: 2rem !important;
+        font-family: 'Source Sans Pro';
+        font-weight: 600;
+    }
+
+    .level-left.level-social {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .pushed-image {
+        margin-top: 0 !important;
+    }
+
+    .testimonial {
+        margin: 0 auto;
+
+        blockquote {
+            font-size: 1rem;
+        }
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    .landing-caption {
+        text-align: center;
+        .subtitle {
+            max-width: 440px;
+            margin: 0 auto;
+            margin-bottom: 20px;
+        }
+    }
+
+    form {
+        padding:  0 40px;
+    }
+
+    .hero-body {
+        padding-bottom: 0;
+        img {
+            display: block;
+            margin: 0 auto;
+            max-height: 450px !important;
+            max-width: 450px !important;
+        }
+    }
+
+    .navbar-menu {
+        .is-static {
+            position: absolute;
+            width: 100%;
+        }
+
+        .is-fixed {
+            position: fixed;
+            width: 100%;
+        }
+
+        .navbar-item {
+            text-align: center !important;
+
+            .signup-button {
+                width: 100% !important;
+            }
+        }
+
+        .navbar-link {
+            padding: 10px 20px !important;
+        }
+    }
+
+    .pushed-image {
+        margin-top: 0 !important;
+    }
+
+    .testimonial {
+        margin: 0 auto;
+    }
+
+    .is-centered-tablet-portrait {
+        text-align: center !important;
+
+        .divider {
+            margin: 0 auto !important;
+        }
+    }
+    .footer-logo, .footer-column {
+        text-align: center;
+    }
+    .level.is-mobile {
+        justify-content: center !important;
+        .level-item {
+            margin: 0 .75rem !important;
+        }
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+
+    .navbar-menu {
+        .navbar-end {
+            a {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .navbar-link {
+                padding-right: 0 !important;
+            }
+            .button {
+                min-width: 180px;
+            }
+        }
+    }
+
+    .navbar-item {
+        &.is-hidden-mobile {
+            display: none !important;
+        }
+        &.is-hidden-desktop.is-hidden-tablet {
+            display: flex !important;
+        }
+    }
+
+    .pushed-image {
+        margin-top: 0 !important;
+    }
+
+}
