@@ -1,6 +1,6 @@
 ---
 name: Custom Actions
-route: /docs/rasa/custom-actions/#development
+route: /docs/rasa/custom-actions
 menu: Development
 meta:
   - name: description

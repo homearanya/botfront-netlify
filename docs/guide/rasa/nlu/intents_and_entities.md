@@ -1,6 +1,6 @@
 ---
 name: Intents and Entities
-route: /docs/rasa/nlu/#intents
+route: /docs/rasa/nlu
 menu: NLU
 meta:
   - name: description

@@ -1,6 +1,6 @@
 ---
 name: Contributing to Botfront
-route: /docs/contributing/#install
+route: /docs/contributing
 menu: Development
 ---
 
