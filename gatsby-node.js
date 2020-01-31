@@ -100,11 +100,11 @@ exports.createPages = async ({ graphql, actions }) => {
   const pageCount = Math.ceil(postsEdges.length / postsPerPage);
 
   // Homepage
-  createPage({
-    path: '/',
-    component: homePage,
-  });
-  
+  // createPage({
+  //   path: '/',
+  //   component: homePage,
+  // });
+
   [...Array(pageCount)].forEach((_val, pageNum) => {
     createPage({
       path: pageNum === 0 ? `/blog/` : `/blog/${pageNum + 1}/`,
@@ -117,7 +117,6 @@ exports.createPages = async ({ graphql, actions }) => {
       }
     });
   });
-  
 
   // Post page creating
   postsEdges.forEach((edge, index) => {

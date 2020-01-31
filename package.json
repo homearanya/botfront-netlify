@@ -5,6 +5,7 @@
   "author": "Botfront <hi@botfront.io>",
   "dependencies": {
     "bulma": "^0.8.0",
+    "docz": "^2.2.0",
     "gatsby": "^2.15.28",
     "gatsby-image": "^2.2.23",
     "gatsby-plugin-catch-links": "^2.1.12",
@@ -29,7 +30,9 @@
     "gatsby-remark-images": "^3.1.25",
     "gatsby-remark-prismjs": "^3.3.16",
     "gatsby-remark-responsive-iframe": "^2.2.20",
+    "gatsby-remark-smartypants": "^2.1.20",
     "gatsby-source-filesystem": "^2.1.28",
+    "gatsby-theme-docz": "^2.2.0",
     "gatsby-transformer-remark": "^2.6.26",
     "gatsby-transformer-sharp": "^2.3.5",
     "lodash": "^4.17.15",
@@ -72,10 +75,6 @@
   "keywords": [
     "gatsby"
   ],
-  "resolutions": {
-    "sharp": "0.22.1",
-    "eslint": "^5.16.0"
-  },
   "license": "MIT",
   "main": "n/a",
   "scripts": {
@@ -90,7 +89,9 @@
     "lint:md": "remark content/",
     "write-good": "write-good $(glob 'content/posts/**/*.md')",
     "format:js": "prettier '**/*.{js,jsx}' --write",
-    "format:styles": "prettier '**/*.{css,scss}' --write"
+    "format:styles": "prettier '**/*.{css,scss}' --write",
+    "format:md": "prettier '**/*.{md,mdx}' --write",
+    "docz:dev": "rm -rf .docz && npm run clean && npm run develop"
   },
   "remarkConfig": {
     "plugins": [

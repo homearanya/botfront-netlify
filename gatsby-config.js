@@ -19,37 +19,61 @@ module.exports = {
     }
   },
   plugins: [
+    {
+      resolve: "gatsby-theme-docz",
+      options: {
+        gatsbyRemarkPlugins: [
+          { resolve: "gatsby-remark-autolink-headers" },
+          { resolve: "gatsby-remark-copy-linked-files" },
+          { resolve: "gatsby-remark-embed-youtube" },
+          { resolve: "gatsby-remark-external-links" },
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 800,
+              linkImagesToOriginal: false,
+              quality: 80,
+              withWebp: true
+            }
+          },
+          { resolve: "gatsby-remark-responsive-iframe" },
+          { resolve: "gatsby-remark-smartypants" }
+        ]
+      }
+    },
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-lodash",
     "gatsby-plugin-sass",
-    {resolve: `gatsby-plugin-favicon`,
-    options: {
-      logo: "./static/images/favicon.png",
+    {
+      resolve: `gatsby-plugin-favicon`,
+      options: {
+        logo: "./static/images/favicon.png",
 
-      // WebApp Manifest Configuration
-      appName: null, // Inferred with your package.json
-      appDescription: null,
-      developerName: null,
-      developerURL: null,
-      dir: 'auto',
-      lang: 'en-US',
-      background: '#fff',
-      theme_color: '#fff',
-      display: 'standalone',
-      orientation: 'any',
-    //   start_url: '/?homescreen=1',
-      version: '1.0',
+        // WebApp Manifest Configuration
+        appName: null, // Inferred with your package.json
+        appDescription: null,
+        developerName: null,
+        developerURL: null,
+        dir: "auto",
+        lang: "en-US",
+        background: "#fff",
+        theme_color: "#fff",
+        display: "standalone",
+        orientation: "any",
+        //   start_url: '/?homescreen=1',
+        version: "1.0",
 
-      icons: {
-        android: true,
-        appleIcon: true,
-        appleStartup: true,
-        coast: false,
-        favicons: true,
-        firefox: true,
-        yandex: false,
-        windows: true
-      }}
+        icons: {
+          android: true,
+          appleIcon: true,
+          appleStartup: true,
+          coast: false,
+          favicons: true,
+          firefox: true,
+          yandex: false,
+          windows: true
+        }
+      }
     },
     {
       resolve: `gatsby-plugin-prefetch-google-fonts`,
@@ -57,16 +81,16 @@ module.exports = {
         fonts: [
           {
             family: `Raleway`,
-            variants:  [`800`, `600`]
+            variants: [`800`, `600`]
           },
           {
             family: `Roboto Mono`,
-            variants:  [`300`, `400`, `500`]
+            variants: [`300`, `400`, `500`]
           },
           {
             family: `Open Sans`,
             subsets: [`latin`],
-            variants: [`500`, `600`, `700`],
+            variants: [`500`, `600`, `700`]
           },
           {
             family: `Lora`,
@@ -161,8 +185,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-catch-links`,
       options: {
-        excludePattern: /(docs)/,
-      },
+        excludePattern: /(docs)/
+      }
     },
     "gatsby-plugin-twitter",
     "gatsby-plugin-sitemap",

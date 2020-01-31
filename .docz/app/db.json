@@ -1,0 +1,1130 @@
+{
+  "config": {
+    "title": "Botfront Website",
+    "description": "Botfront- Open source chatbot platform",
+    "menu": [
+      {
+        "name": "Getting Started",
+        "menu": [
+          "Setup",
+          "Quick Start",
+          "Usage with Rasa / X",
+          "Useful CLI commands"
+        ]
+      },
+      "Dialogue",
+      "NLU",
+      "Development",
+      "Deployment",
+      "Channels",
+      "Misc"
+    ],
+    "version": "1.1.0",
+    "repository": null,
+    "native": false,
+    "themeConfig": {},
+    "separator": "-",
+    "src": "./docs",
+    "base": "/docs",
+    "dest": "/docs"
+  },
+  "entries": [
+    {
+      "key": "docs/docs/guide/channels/messenger.md",
+      "value": {
+        "name": "Facebook Messenger",
+        "route": "/docs/channels/messenger",
+        "menu": "Channels",
+        "meta": [
+          {
+            "name": "description",
+            "content": "Botfront: deploy your Rasa with Botfront on Facebook Messenger"
+          },
+          {
+            "name": "keywords",
+            "content": "botfront stories nlu rasa slots deployment facebook messenger"
+          }
+        ],
+        "permalink": "/channels/:slug",
+        "id": "03f900df10f727a08f58b71a9c0c29e3",
+        "filepath": "docs/docs/guide/channels/messenger.md",
+        "fullpath": "/home/homearanya/dev/botfront-website-netlify/docs/guide/channels/messenger.md",
+        "link": "",
+        "slug": "docs-docs-guide-channels-messenger",
+        "headings": [
+          {
+            "slug": "facebook-messenger",
+            "depth": 1,
+            "value": "Facebook Messenger"
+          },
+          {
+            "slug": "create-a-facebook-page-if-you-dont-have-one-already",
+            "depth": 2,
+            "value": "Create a Facebook page (if you don't have one already)"
+          },
+          {
+            "slug": "create-a-facebook-app",
+            "depth": 2,
+            "value": "Create a Facebook App"
+          },
+          {
+            "slug": "local-development",
+            "depth": 2,
+            "value": "Local development"
+          },
+          {
+            "slug": "1-setup-ngrok",
+            "depth": 4,
+            "value": "1. Setup Ngrok"
+          },
+          {
+            "slug": "2-setup-your-webhook",
+            "depth": 4,
+            "value": "2. Setup your Webhook"
+          },
+          {
+            "slug": "3-chat-with-your-bot",
+            "depth": 4,
+            "value": "3. Chat with your bot"
+          }
+        ]
+      }
+    },
+    {
+      "key": "docs/docs/guide/channels/overview.md",
+      "value": {
+        "name": "Overview",
+        "route": "/docs/channels/",
+        "menu": "Channels",
+        "meta": [
+          {
+            "name": "description",
+            "content": "Botfront: deploy your Rasa with Botfront on Facebook Messenger"
+          },
+          {
+            "name": "keywords",
+            "content": "botfront stories nlu rasa slots deployment facebook channels"
+          }
+        ],
+        "permalink": "/channels",
+        "id": "93b25de8bc7e8b3e9c46af2b38f492f3",
+        "filepath": "docs/docs/guide/channels/overview.md",
+        "fullpath": "/home/homearanya/dev/botfront-website-netlify/docs/guide/channels/overview.md",
+        "link": "",
+        "slug": "docs-docs-guide-channels-overview",
+        "headings": [
+          {
+            "slug": "deploying-your-bot-on-several-channels",
+            "depth": 1,
+            "value": "Deploying your bot on several channels"
+          },
+          {
+            "slug": "if-your-bot-is-multilingual",
+            "depth": 2,
+            "value": "If your bot is multilingual"
+          },
+          {
+            "slug": "implementing-other-channels",
+            "depth": 4,
+            "value": "Implementing other channels:"
+          },
+          {
+            "slug": "if-your-bot-has-only-one-language",
+            "depth": 2,
+            "value": "If your bot has only one language"
+          },
+          {
+            "slug": "adding-a-channel",
+            "depth": 3,
+            "value": "Adding a channel:"
+          }
+        ]
+      }
+    },
+    {
+      "key": "docs/docs/guide/channels/webchat.md",
+      "value": {
+        "name": "Chat widget on your website",
+        "route": "/docs/channels/webchat/",
+        "menu": "Channels",
+        "meta": [
+          {
+            "name": "description",
+            "content": "Botfront: expose your Rasa assistant with the Rasa Webchat"
+          },
+          {
+            "name": "keywords",
+            "content": "botfront stories nlu rasa slots deployment"
+          }
+        ],
+        "permalink": "/channels/:slug",
+        "id": "b5ad53bacef1b5ddd30079849c86ae7d",
+        "filepath": "docs/docs/guide/channels/webchat.md",
+        "fullpath": "/home/homearanya/dev/botfront-website-netlify/docs/guide/channels/webchat.md",
+        "link": "",
+        "slug": "docs-docs-guide-channels-webchat",
+        "headings": [
+          {
+            "slug": "chat-widget-on-your-website",
+            "depth": 1,
+            "value": "Chat widget on your website"
+          },
+          {
+            "slug": "install-the-widget-on-your-website",
+            "depth": 2,
+            "value": "Install the widget on your website"
+          },
+          {
+            "slug": "configure-the-channel",
+            "depth": 2,
+            "value": "Configure the channel"
+          },
+          {
+            "slug": "page-specific-intro-message",
+            "depth": 2,
+            "value": "Page specific intro message"
+          }
+        ]
+      }
+    },
+    {
+      "key": "docs/docs/guide/deployment/installation.md",
+      "value": {
+        "name": "Server installation",
+        "route": "/docs/deployment/installation/",
+        "menu": "Deployment",
+        "meta": [
+          {
+            "name": "description",
+            "content": "Botfront: server installation"
+          },
+          {
+            "name": "keywords",
+            "content": "botfront stories nlu rasa slots deployment"
+          }
+        ],
+        "permalink": "/deployment/:slug",
+        "id": "97fc6ffe815eb3154b5770f20d1d0d0e",
+        "filepath": "docs/docs/guide/deployment/installation.md",
+        "fullpath": "/home/homearanya/dev/botfront-website-netlify/docs/guide/deployment/installation.md",
+        "link": "",
+        "slug": "docs-docs-guide-deployment-installation",
+        "headings": [
+          {
+            "slug": "server-installation",
+            "depth": 1,
+            "value": "Server installation"
+          },
+          {
+            "slug": "orchestration-framework-recommended",
+            "depth": 2,
+            "value": "Orchestration framework (recommended)"
+          },
+          {
+            "slug": "single-server",
+            "depth": 2,
+            "value": "Single server"
+          },
+          {
+            "slug": "services-and-docker-images",
+            "depth": 2,
+            "value": "Services and Docker images"
+          },
+          {
+            "slug": "environment-variables",
+            "depth": 2,
+            "value": "Environment variables"
+          },
+          {
+            "slug": "volumes",
+            "depth": 2,
+            "value": "Volumes"
+          },
+          {
+            "slug": "mongodb-database-considerations",
+            "depth": 2,
+            "value": "MongoDB database considerations"
+          },
+          {
+            "slug": "indicative-technical-requirements",
+            "depth": 2,
+            "value": "Indicative technical requirements"
+          },
+          {
+            "slug": "endpoints",
+            "depth": 2,
+            "value": "Endpoints"
+          },
+          {
+            "slug": "tracker-store-configuration",
+            "depth": 2,
+            "value": "Tracker store configuration"
+          },
+          {
+            "slug": "chatbase-integration",
+            "depth": 3,
+            "value": "Chatbase integration"
+          }
+        ]
+      }
+    },
+    {
+      "key": "docs/docs/guide/developers-guide/contributing.md",
+      "value": {
+        "name": "Contributing to Botfront",
+        "route": "/docs/contributing/#install",
+        "menu": "Development",
+        "id": "e8acb19ecf4977f94e12ba95193969c9",
+        "filepath": "docs/docs/guide/developers-guide/contributing.md",
+        "fullpath": "/home/homearanya/dev/botfront-website-netlify/docs/guide/developers-guide/contributing.md",
+        "link": "",
+        "slug": "docs-docs-guide-developers-guide-contributing",
+        "headings": [
+          {
+            "slug": "contributing-to-botfront",
+            "depth": 1,
+            "value": "Contributing to Botfront"
+          },
+          {
+            "slug": "install",
+            "depth": 2,
+            "value": "Install"
+          },
+          {
+            "slug": "run",
+            "depth": 2,
+            "value": "Run"
+          },
+          {
+            "slug": "documentation",
+            "depth": 2,
+            "value": "Documentation"
+          },
+          {
+            "slug": "running-and-writing-tests",
+            "depth": 2,
+            "value": "Running and writing tests"
+          }
+        ]
+      }
+    },
+    {
+      "key": "docs/docs/guide/developers-guide/custom_actions.md",
+      "value": {
+        "name": "Custom Actions",
+        "route": "/docs/rasa/custom-actions/#development",
+        "menu": "Development",
+        "meta": [
+          {
+            "name": "description",
+            "content": "Botfront: writing Rasa custom actions"
+          },
+          {
+            "name": "keywords",
+            "content": "botfront stories nlu rasa slots"
+          }
+        ],
+        "permalink": "/rasa/:slug",
+        "id": "431dd8a89e7dcff9b23935584f85d3c8",
+        "filepath": "docs/docs/guide/developers-guide/custom_actions.md",
+        "fullpath": "/home/homearanya/dev/botfront-website-netlify/docs/guide/developers-guide/custom_actions.md",
+        "link": "",
+        "slug": "docs-docs-guide-developers-guide-custom-actions",
+        "headings": [
+          {
+            "slug": "custom-actions",
+            "depth": 1,
+            "value": "Custom actions"
+          },
+          {
+            "slug": "development",
+            "depth": 2,
+            "value": "Development"
+          },
+          {
+            "slug": "launch-the-watcher",
+            "depth": 4,
+            "value": "Launch the watcher"
+          },
+          {
+            "slug": "write-custom-actions",
+            "depth": 4,
+            "value": "Write custom actions"
+          },
+          {
+            "slug": "verify-that-your-actions-are-registered",
+            "depth": 4,
+            "value": "Verify that your actions are registered"
+          },
+          {
+            "slug": "add-your-action-to-the-conversation",
+            "depth": 4,
+            "value": "Add your action to the conversation"
+          },
+          {
+            "slug": "deployment",
+            "depth": 2,
+            "value": "Deployment"
+          }
+        ]
+      }
+    },
+    {
+      "key": "docs/docs/guide/developers-guide/extending-rasa.md",
+      "value": {
+        "name": "Extending Rasa",
+        "route": "/docs/extending-rasa/",
+        "menu": "Development",
+        "id": "0f6c2da2527d58f205c77417d0906d9e",
+        "filepath": "docs/docs/guide/developers-guide/extending-rasa.md",
+        "fullpath": "/home/homearanya/dev/botfront-website-netlify/docs/guide/developers-guide/extending-rasa.md",
+        "link": "",
+        "slug": "docs-docs-guide-developers-guide-extending-rasa",
+        "headings": [
+          {
+            "slug": "extending-rasa",
+            "depth": 1,
+            "value": "Extending Rasa"
+          },
+          {
+            "slug": "example-custom-nlu-component",
+            "depth": 2,
+            "value": "Example: custom NLU component"
+          }
+        ]
+      }
+    },
+    {
+      "key": "docs/docs/guide/getting-started/cli.md",
+      "value": {
+        "name": "Useful CLI commands",
+        "route": "/docs/getting-started/cli",
+        "menu": "Getting Started",
+        "meta": [
+          {
+            "name": "description",
+            "content": "Botfront tutorial: Rasa CLI"
+          },
+          {
+            "name": "keywords",
+            "content": "botfront stories nlu rasa"
+          }
+        ],
+        "permalink": "/getting-started/:slug",
+        "id": "d4b70adb94d6bf1f44688ab8f2e2d93f",
+        "filepath": "docs/docs/guide/getting-started/cli.md",
+        "fullpath": "/home/homearanya/dev/botfront-website-netlify/docs/guide/getting-started/cli.md",
+        "link": "",
+        "slug": "docs-docs-guide-getting-started-cli",
+        "headings": [
+          {
+            "slug": "useful-cli-commands",
+            "depth": 1,
+            "value": "Useful CLI commands"
+          },
+          {
+            "slug": "main-commands",
+            "depth": 2,
+            "value": "Main commands"
+          },
+          {
+            "slug": "other-commands",
+            "depth": 2,
+            "value": "Other commands"
+          },
+          {
+            "slug": "using-plain-docker-compose-commands",
+            "depth": 2,
+            "value": "Using plain  docker-compose  commands"
+          },
+          {
+            "slug": "troubleshooting",
+            "depth": 2,
+            "value": "Troubleshooting"
+          }
+        ]
+      }
+    },
+    {
+      "key": "docs/docs/guide/getting-started/import-export.md",
+      "value": {
+        "name": "Usage with Rasa / X",
+        "route": "/docs/import-export",
+        "menu": "Getting Started",
+        "id": "80a20553db1a3ea4462a53231c42c29a",
+        "filepath": "docs/docs/guide/getting-started/import-export.md",
+        "fullpath": "/home/homearanya/dev/botfront-website-netlify/docs/guide/getting-started/import-export.md",
+        "link": "",
+        "slug": "docs-docs-guide-getting-started-import-export",
+        "headings": [
+          {
+            "slug": "usage-with-rasa--x",
+            "depth": 1,
+            "value": "Usage with Rasa / X"
+          },
+          {
+            "slug": "nlu",
+            "depth": 4,
+            "value": "NLU"
+          },
+          {
+            "slug": "credentials-and-endpoints",
+            "depth": 4,
+            "value": "Credentials and endpoints"
+          },
+          {
+            "slug": "import",
+            "depth": 3,
+            "value": "Import"
+          }
+        ]
+      }
+    },
+    {
+      "key": "docs/docs/guide/getting-started/quick-start.md",
+      "value": {
+        "name": "Quick Start",
+        "route": "/docs/getting-started/quick-start",
+        "menu": "Getting Started",
+        "meta": [
+          {
+            "name": "description",
+            "content": "Botfront tutorial: setup Botfront and start building your Rasa chatbot"
+          },
+          {
+            "name": "keywords",
+            "content": "botfront stories nlu rasa"
+          }
+        ],
+        "permalink": "/getting-started/:slug",
+        "id": "194b93e792962ebe675701ec16f7feb3",
+        "filepath": "docs/docs/guide/getting-started/quick-start.md",
+        "fullpath": "/home/homearanya/dev/botfront-website-netlify/docs/guide/getting-started/quick-start.md",
+        "link": "",
+        "slug": "docs-docs-guide-getting-started-quick-start",
+        "headings": [
+          {
+            "slug": "quick-start",
+            "depth": 1,
+            "value": "Quick Start"
+          },
+          {
+            "slug": "train-and-try-your-stories",
+            "depth": 2,
+            "value": "Train and try your stories"
+          },
+          {
+            "slug": "add-natural-language",
+            "depth": 2,
+            "value": "Add natural language"
+          },
+          {
+            "slug": "add-bot-response-content",
+            "depth": 2,
+            "value": "Add bot response content"
+          },
+          {
+            "slug": "adding-languages",
+            "depth": 2,
+            "value": "Adding languages"
+          },
+          {
+            "slug": "next-steps",
+            "depth": 2,
+            "value": "Next steps"
+          }
+        ]
+      }
+    },
+    {
+      "key": "docs/docs/guide/getting-started/setup.md",
+      "value": {
+        "name": "Setup",
+        "route": "/docs/getting-started/setup",
+        "menu": "Getting Started",
+        "meta": [
+          {
+            "name": "description",
+            "content": "Botfront tutorial: setup Botfront and start building your Rasa chatbot"
+          },
+          {
+            "name": "keywords",
+            "content": "botfront stories nlu rasa"
+          }
+        ],
+        "permalink": "/getting-started/:slug",
+        "id": "bc1b23395a9e6ef9081ab90231f3e208",
+        "filepath": "docs/docs/guide/getting-started/setup.md",
+        "fullpath": "/home/homearanya/dev/botfront-website-netlify/docs/guide/getting-started/setup.md",
+        "link": "",
+        "slug": "docs-docs-guide-getting-started-setup",
+        "headings": [
+          {
+            "slug": "setup",
+            "depth": 1,
+            "value": "Setup"
+          },
+          {
+            "slug": "requirements",
+            "depth": 3,
+            "value": "Requirements"
+          },
+          {
+            "slug": "install-the-botfront-cli",
+            "depth": 3,
+            "value": "Install the Botfront CLI"
+          },
+          {
+            "slug": "create-a-new-project",
+            "depth": 3,
+            "value": "Create a new project"
+          },
+          {
+            "slug": "start-botfront",
+            "depth": 3,
+            "value": "Start Botfront"
+          },
+          {
+            "slug": "setup-your-project",
+            "depth": 3,
+            "value": "Setup your project"
+          }
+        ]
+      }
+    },
+    {
+      "key": "docs/docs/guide/misc/migration.md",
+      "value": {
+        "name": "Migration guide",
+        "route": "/docs/migration",
+        "menu": "Misc",
+        "id": "048e265d8e69bd110029a7ddba367527",
+        "filepath": "docs/docs/guide/misc/migration.md",
+        "fullpath": "/home/homearanya/dev/botfront-website-netlify/docs/guide/misc/migration.md",
+        "link": "",
+        "slug": "docs-docs-guide-misc-migration",
+        "headings": [
+          {
+            "slug": "migration-guide",
+            "depth": 1,
+            "value": "Migration guide"
+          },
+          {
+            "slug": "minor-versions",
+            "depth": 2,
+            "value": "Minor versions"
+          },
+          {
+            "slug": "major-versions",
+            "depth": 2,
+            "value": "Major versions"
+          },
+          {
+            "slug": "018x---019x",
+            "depth": 3,
+            "value": "0.18.x -> 0.19.x"
+          },
+          {
+            "slug": "breaking-changes",
+            "depth": 4,
+            "value": "Breaking changes"
+          },
+          {
+            "slug": "upgrading-a-project",
+            "depth": 4,
+            "value": "Upgrading a project"
+          }
+        ]
+      }
+    },
+    {
+      "key": "docs/docs/guide/rasa/nlu/evaluation.md",
+      "value": {
+        "name": "Evaluation",
+        "route": "/docs/rasa/nlu/evaluation/",
+        "menu": "NLU",
+        "meta": [
+          {
+            "name": "description",
+            "content": "Botfront: evaluating your Rasa NLU models"
+          },
+          {
+            "name": "keywords",
+            "content": "botfront stories nlu rasa"
+          }
+        ],
+        "permalink": "/rasa/nlu/:slug",
+        "id": "c4d45b8b07d560ddff3ff1b6c5543b88",
+        "filepath": "docs/docs/guide/rasa/nlu/evaluation.md",
+        "fullpath": "/home/homearanya/dev/botfront-website-netlify/docs/guide/rasa/nlu/evaluation.md",
+        "link": "",
+        "slug": "docs-docs-guide-rasa-nlu-evaluation",
+        "headings": [
+          {
+            "slug": "evaluation",
+            "depth": 1,
+            "value": "Evaluation"
+          },
+          {
+            "slug": "evaluation-methods",
+            "depth": 2,
+            "value": "Evaluation methods"
+          },
+          {
+            "slug": "using-training-data",
+            "depth": 3,
+            "value": "Using training data"
+          },
+          {
+            "slug": "using-validated-data",
+            "depth": 3,
+            "value": "Using validated data"
+          },
+          {
+            "slug": "using-a-separate-test-set-upload",
+            "depth": 3,
+            "value": "Using a separate test set (upload)"
+          },
+          {
+            "slug": "evaluation-reports",
+            "depth": 2,
+            "value": "Evaluation reports"
+          },
+          {
+            "slug": "intents",
+            "depth": 3,
+            "value": "Intents"
+          },
+          {
+            "slug": "entities",
+            "depth": 3,
+            "value": "Entities"
+          }
+        ]
+      }
+    },
+    {
+      "key": "docs/docs/guide/rasa/nlu/intents_and_entities.md",
+      "value": {
+        "name": "Intents and Entities",
+        "route": "/docs/rasa/nlu/#intents",
+        "menu": "NLU",
+        "meta": [
+          {
+            "name": "description",
+            "content": "Botfront: undestanding intents and entities with Rasa"
+          },
+          {
+            "name": "keywords",
+            "content": "botfront stories nlu rasa"
+          }
+        ],
+        "permalink": "/rasa/:slug",
+        "id": "979d868d6ef61c6e972ebe751252d7a4",
+        "filepath": "docs/docs/guide/rasa/nlu/intents_and_entities.md",
+        "fullpath": "/home/homearanya/dev/botfront-website-netlify/docs/guide/rasa/nlu/intents_and_entities.md",
+        "link": "",
+        "slug": "docs-docs-guide-rasa-nlu-intents-and-entities",
+        "headings": [
+          {
+            "slug": "understanding-intents-and-entities",
+            "depth": 1,
+            "value": "Understanding intents and entities"
+          },
+          {
+            "slug": "intents",
+            "depth": 2,
+            "value": "Intents"
+          },
+          {
+            "slug": "entities",
+            "depth": 2,
+            "value": "Entities"
+          }
+        ]
+      }
+    },
+    {
+      "key": "docs/docs/guide/rasa/nlu/training.md",
+      "value": {
+        "name": "Training intents and entities",
+        "route": "/docs/rasa/nlu/training/",
+        "menu": "NLU",
+        "meta": [
+          {
+            "name": "description",
+            "content": "Botfront: get the best of your Rasa NLU models"
+          },
+          {
+            "name": "keywords",
+            "content": "botfront stories nlu rasa"
+          }
+        ],
+        "permalink": "/rasa/nlu/:slug",
+        "id": "4634d4f7512742f8b986399943aa5788",
+        "filepath": "docs/docs/guide/rasa/nlu/training.md",
+        "fullpath": "/home/homearanya/dev/botfront-website-netlify/docs/guide/rasa/nlu/training.md",
+        "link": "",
+        "slug": "docs-docs-guide-rasa-nlu-training",
+        "headings": [
+          {
+            "slug": "training-intents-and-entities",
+            "depth": 1,
+            "value": "Training intents and entities"
+          },
+          {
+            "slug": "filtering-entities",
+            "depth": 2,
+            "value": "Filtering entities"
+          },
+          {
+            "slug": "entity-synonyms",
+            "depth": 2,
+            "value": "Entity synonyms"
+          },
+          {
+            "slug": "gazettes",
+            "depth": 2,
+            "value": "Gazettes"
+          },
+          {
+            "slug": "compositing-entities",
+            "depth": 2,
+            "value": "Compositing entities"
+          },
+          {
+            "slug": "configuring-the-pipeline",
+            "depth": 2,
+            "value": "Configuring the pipeline"
+          },
+          {
+            "slug": "semantic-variety",
+            "depth": 2,
+            "value": "Semantic variety"
+          },
+          {
+            "slug": "spelling-errors",
+            "depth": 2,
+            "value": "Spelling errors"
+          }
+        ]
+      }
+    },
+    {
+      "key": "docs/docs/guide/rasa/nlu/training_adding_data.md",
+      "value": {
+        "name": "Add Training data",
+        "route": "/docs/rasa/nlu/training-adding-data/",
+        "menu": "NLU",
+        "meta": [
+          {
+            "name": "description",
+            "content": "Botfront: adding training data in Rasa"
+          },
+          {
+            "name": "keywords",
+            "content": "botfront stories nlu rasa"
+          }
+        ],
+        "permalink": "/rasa/nlu/:slug",
+        "id": "f35ecdbba567bc10a950a305074c6d3e",
+        "filepath": "docs/docs/guide/rasa/nlu/training_adding_data.md",
+        "fullpath": "/home/homearanya/dev/botfront-website-netlify/docs/guide/rasa/nlu/training_adding_data.md",
+        "link": "",
+        "slug": "docs-docs-guide-rasa-nlu-training-adding-data",
+        "headings": [
+          {
+            "slug": "add-training-data",
+            "depth": 1,
+            "value": "Add Training data"
+          },
+          {
+            "slug": "import",
+            "depth": 2,
+            "value": "Import"
+          },
+          {
+            "slug": "insert-many",
+            "depth": 2,
+            "value": "Insert Many"
+          },
+          {
+            "slug": "populate",
+            "depth": 2,
+            "value": "Populate"
+          },
+          {
+            "slug": "nlu-playground",
+            "depth": 2,
+            "value": "NLU Playground"
+          }
+        ]
+      }
+    },
+    {
+      "key": "docs/docs/guide/rasa/stories/conversation_builder.md",
+      "value": {
+        "name": "Building conversations",
+        "route": "/docs/rasa/conversation-builder/",
+        "menu": "Dialogue",
+        "meta": [
+          {
+            "name": "description",
+            "content": "Botfront: A visual editor for Rasa stories"
+          },
+          {
+            "name": "keywords",
+            "content": "botfront stories nlu rasa slots"
+          }
+        ],
+        "permalink": "/rasa/:slug",
+        "id": "eb14ec406faed99832f52d189b7453b3",
+        "filepath": "docs/docs/guide/rasa/stories/conversation_builder.md",
+        "fullpath": "/home/homearanya/dev/botfront-website-netlify/docs/guide/rasa/stories/conversation_builder.md",
+        "link": "",
+        "slug": "docs-docs-guide-rasa-stories-conversation-builder",
+        "headings": [
+          {
+            "slug": "building-conversations",
+            "depth": 1,
+            "value": "Building conversations"
+          },
+          {
+            "slug": "a-visual-editor-for-stories",
+            "depth": 2,
+            "value": "A visual editor for stories"
+          },
+          {
+            "slug": "sample-conversation-flow",
+            "depth": 2,
+            "value": "Sample conversation flow"
+          },
+          {
+            "slug": "user-utterance",
+            "depth": 3,
+            "value": "User utterance"
+          },
+          {
+            "slug": "bot-responses",
+            "depth": 3,
+            "value": "Bot responses"
+          },
+          {
+            "slug": "branching",
+            "depth": 3,
+            "value": "Branching"
+          },
+          {
+            "slug": "annotating-with-entities",
+            "depth": 3,
+            "value": "Annotating with entities"
+          },
+          {
+            "slug": "slots-and-actions",
+            "depth": 3,
+            "value": "Slots and actions"
+          },
+          {
+            "slug": "slots",
+            "depth": 4,
+            "value": "Slots"
+          },
+          {
+            "slug": "actions",
+            "depth": 4,
+            "value": "Actions"
+          },
+          {
+            "slug": "context-aware-assistants",
+            "depth": 2,
+            "value": "Context aware assistants"
+          }
+        ]
+      }
+    },
+    {
+      "key": "docs/docs/guide/rasa/stories/conversation_flows.md",
+      "value": {
+        "name": "Conversation flows",
+        "route": "/docs/rasa/conversation-flows/",
+        "menu": "Dialogue",
+        "meta": [
+          {
+            "name": "description",
+            "content": "Botfront: the most efficient way to write Rasa stories"
+          },
+          {
+            "name": "keywords",
+            "content": "botfront stories nlu rasa"
+          }
+        ],
+        "permalink": "/rasa/:slug",
+        "id": "8dc932ed1abb8fe177f324fbdf1b6f8c",
+        "filepath": "docs/docs/guide/rasa/stories/conversation_flows.md",
+        "fullpath": "/home/homearanya/dev/botfront-website-netlify/docs/guide/rasa/stories/conversation_flows.md",
+        "link": "",
+        "slug": "docs-docs-guide-rasa-stories-conversation-flows",
+        "headings": [
+          {
+            "slug": "conversation-flows",
+            "depth": 1,
+            "value": "Conversation flows"
+          },
+          {
+            "slug": "branching-conversations",
+            "depth": 2,
+            "value": "Branching conversations"
+          },
+          {
+            "slug": "branching-with-intents",
+            "depth": 3,
+            "value": "Branching with intents"
+          },
+          {
+            "slug": "branching-with-entity-values",
+            "depth": 3,
+            "value": "Branching with entity values"
+          },
+          {
+            "slug": "branching-with-slots",
+            "depth": 3,
+            "value": "Branching with slots"
+          },
+          {
+            "slug": "how-branches-are-handled",
+            "depth": 3,
+            "value": "How branches are handled"
+          },
+          {
+            "slug": "other-branching-features",
+            "depth": 3,
+            "value": "Other branching features"
+          },
+          {
+            "slug": "linking-stories",
+            "depth": 2,
+            "value": "Linking stories"
+          },
+          {
+            "slug": "linking-a-story-to-itself",
+            "depth": 3,
+            "value": "Linking a story to itself"
+          },
+          {
+            "slug": "how-linking-is-handled",
+            "depth": 3,
+            "value": "How linking is handled"
+          }
+        ]
+      }
+    },
+    {
+      "key": "docs/docs/guide/rasa/stories/disambiguation.md",
+      "value": {
+        "name": "Disambiguating user input",
+        "route": "/docs/rasa/disambiguation/",
+        "menu": "Dialogue",
+        "meta": [
+          {
+            "name": "description",
+            "content": "Botfront: disambiguate user input in your Rasa assistant"
+          },
+          {
+            "name": "keywords",
+            "content": "botfront stories nlu rasa disambiguation"
+          }
+        ],
+        "permalink": "/rasa/:slug",
+        "id": "7671662e6ed797ec7f7c22bd74ee974a",
+        "filepath": "docs/docs/guide/rasa/stories/disambiguation.md",
+        "fullpath": "/home/homearanya/dev/botfront-website-netlify/docs/guide/rasa/stories/disambiguation.md",
+        "link": "",
+        "slug": "docs-docs-guide-rasa-stories-disambiguation",
+        "headings": [
+          {
+            "slug": "disambiguating-user-input",
+            "depth": 1,
+            "value": "Disambiguating user input"
+          },
+          {
+            "slug": "example-usage",
+            "depth": 3,
+            "value": "Example usage"
+          },
+          {
+            "slug": "parameters",
+            "depth": 3,
+            "value": "Parameters"
+          }
+        ]
+      }
+    },
+    {
+      "key": "docs/docs/guide/rasa/stories/optimization.md",
+      "value": {
+        "name": "Optimization and other features",
+        "route": "/docs/rasa/optimization/",
+        "menu": "Dialogue",
+        "meta": [
+          {
+            "name": "description",
+            "content": "Botfront: useful features to optimize the edition and the training of Rasa stories"
+          },
+          {
+            "name": "keywords",
+            "content": "botfront stories nlu rasa slots"
+          }
+        ],
+        "permalink": "/rasa/:slug",
+        "id": "ce9e675e7919eeca6fa6db6c1c09871c",
+        "filepath": "docs/docs/guide/rasa/stories/optimization.md",
+        "fullpath": "/home/homearanya/dev/botfront-website-netlify/docs/guide/rasa/stories/optimization.md",
+        "link": "",
+        "slug": "docs-docs-guide-rasa-stories-optimization",
+        "headings": [
+          {
+            "slug": "optimization-and-other-features",
+            "depth": 1,
+            "value": "Optimization and other features"
+          },
+          {
+            "slug": "optimize-training-for-faster-development",
+            "depth": 2,
+            "value": "Optimize training for faster development"
+          },
+          {
+            "slug": "default-domain-management",
+            "depth": 2,
+            "value": "Default Domain Management"
+          },
+          {
+            "slug": "warnings-and-errors",
+            "depth": 2,
+            "value": "Warnings and errors"
+          },
+          {
+            "slug": "organizing-your-stories-in-groups",
+            "depth": 2,
+            "value": "Organizing your stories in groups"
+          },
+          {
+            "slug": "renaming-stories",
+            "depth": 2,
+            "value": "Renaming stories"
+          },
+          {
+            "slug": "collapsing-and-expanding-stories",
+            "depth": 2,
+            "value": "Collapsing and expanding stories"
+          },
+          {
+            "slug": "special-group-intro-stories",
+            "depth": 2,
+            "value": "Special group: Intro stories"
+          }
+        ]
+      }
+    }
+  ],
+  "props": []
+}

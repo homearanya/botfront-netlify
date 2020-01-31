@@ -13,12 +13,9 @@
     </a>
 </div>
 
-
-
 <div align="center"  style="margin-bottom:30px">
     <img src="static/logos/logo-1024.png" alt="Logo" width='200px' height='200px'/>
 </div>
-
 
 <div align="center">
     <a href="https://codeclimate.com/github/Vagr9K/gatsby-advanced-starter">

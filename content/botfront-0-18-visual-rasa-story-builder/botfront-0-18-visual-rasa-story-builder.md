@@ -5,11 +5,11 @@ date: "2018-11-13"
 category: "tech"
 author: Gercek Armagan
 tags:
-    - NLU
-    - Visual Story Builder
-    - Rasa
-    - Rasa X
-    - Export
+  - NLU
+  - Visual Story Builder
+  - Rasa
+  - Rasa X
+  - Export
 ---
 
 # Visual Conversation Builder
@@ -22,6 +22,7 @@ tags:
 * chichat.🎉🥳
   - utter_happy_to_hear_that
 ```
+
 <br />
 
 Until today you had to create Rasa stories in Markdown and make explicit connections between stories, user utterances, and bot responses.<br /><br />
