@@ -23,7 +23,7 @@ module.exports = {
       resolve: "gatsby-theme-docz",
       options: {
         gatsbyRemarkPlugins: [
-          { resolve: "gatsby-remark-autolink-headers" },
+          // { resolve: "gatsby-remark-autolink-headers" },
           { resolve: "gatsby-remark-copy-linked-files" },
           { resolve: "gatsby-remark-embed-youtube" },
           { resolve: "gatsby-remark-external-links" },
